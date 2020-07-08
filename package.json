@@ -1,24 +1,28 @@
 {
-  "name": "generic-push-notification-service",
-  "version": "0.1.0",
-  "description": "simple push notification service",
-  "main": "dist/index.js",
-  "repository": "https://github.com/lamecksilva/generic-push-notification-service.git",
-  "author": "lamecksilva <lameck2@hotmail.com>",
-  "license": "MIT",
-  "private": false,
-  "devDependencies": {
-    "@types/express": "^4.17.7",
-    "@types/mongoose": "^5.7.30",
-    "@types/morgan": "^1.9.1",
-    "morgan": "^1.10.0",
-    "ts-node": "^8.10.2",
-    "tsc": "^1.20150623.0",
-    "typescript": "^3.9.6"
-  },
-  "dependencies": {
-    "dotenv": "^8.2.0",
-    "express": "^4.17.1",
-    "mongoose": "^5.9.22"
-  }
+	"name": "generic-push-notification-service",
+	"version": "0.1.0",
+	"description": "simple push notification service",
+	"main": "dist/index.js",
+	"repository": "https://github.com/lamecksilva/generic-push-notification-service.git",
+	"author": "lamecksilva <lameck2@hotmail.com>",
+	"license": "MIT",
+	"private": false,
+	"devDependencies": {
+		"@types/express": "^4.17.7",
+		"@types/mongoose": "^5.7.30",
+		"@types/morgan": "^1.9.1",
+		"morgan": "^1.10.0",
+		"ts-node": "^8.10.2",
+		"tsc": "^1.20150623.0",
+		"typescript": "^3.9.6"
+	},
+	"dependencies": {
+		"dotenv": "^8.2.0",
+		"express": "^4.17.1",
+		"mongoose": "^5.9.22"
+	},
+	"scripts": {
+		"start": "./node_modules/.bin/ts-node index.ts",
+		"tsc": "./node_modules/.bin/tsc"
+	}
 }
